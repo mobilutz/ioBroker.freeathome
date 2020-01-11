@@ -37,6 +37,12 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
+## Diclaimer
+
+This ioBroker adapter is a private contribution and not related to ABB or Busch-Jaeger. 
+It may not work with future updates of the free@home firmware and can also 
+cause unintended behavior. Use at your own risk!
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
