@@ -1,78 +1,87 @@
 {
-    "common": {
-        "name": "freeathome",
-        "version": "0.0.1",
-        "news": {
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "zh-cn": "首次出版"
-            }
-        },
-        "title": "Busch-Jaeger free@home",
-        "titleLang": {
-            "en": "Busch-Jaeger free@home",
-            "de": "Busch-Jaeger free @ home",
-            "ru": "Busch-Jaeger free @ home",
-            "pt": "Busch-Jaeger grátis @ home",
-            "nl": "Busch-Jaeger gratis @ home",
-            "fr": "Busch-Jaeger free @ home",
-            "it": "Busch-Jaeger free @ home",
-            "es": "Busch-Jaeger gratis @ home",
-            "pl": "Busch-Jaeger free @ home",
-            "zh-cn": "Busch-Jaeger free @ home"
-        },
-        "desc": {
-            "en": "freeathome",
-            "de": "freeathome",
-            "ru": "freeathome",
-            "pt": "freeathome",
-            "nl": "freeathome",
-            "fr": "freeathome",
-            "it": "freeathome",
-            "es": "freeathome",
-            "pl": "freeathome",
-            "zh-cn": "自由在家"
-        },
-        "authors": [
-            "Lutz Lengemann <lutz@lengemann.net>"
-        ],
-        "keywords": [
-            "free@home",
-            "freeathome",
-            "Busch-Jaeger",
-            "Busch Jaeger"
-        ],
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "main": "main.js",
-        "icon": "freeathome.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/mobilutz/ioBroker.freeathome/master/admin/freeathome.png",
-        "readme": "https://github.com/mobilutz/ioBroker.freeathome/blob/master/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "iot-systems",
-        "compact": true,
-        "materialize": true,
-        "dependencies": [
-            {
-                "freeathome-api": ">=1.1.0",
-                "js-controller": ">=1.4.2"
-            }
-        ]
+  "common": {
+    "name": "freeathome",
+    "version": "0.0.1",
+    "news": {
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung"
+      }
     },
-    "native": {
-        "option1": true,
-        "option2": "42"
+    "title": "Busch-Jaeger free@home",
+    "titleLang": {
+      "en": "Busch-Jaeger free@home",
+      "de": "Busch-Jaeger free@home"
     },
-    "objects": [],
-    "instanceObjects": []
+    "desc": {
+      "en": "freeathome",
+      "de": "freeathome"
+    },
+    "authors": [
+      "Lutz Lengemann <lutz@lengemann.net>"
+    ],
+    "keywords": [
+      "free@home",
+      "freeathome",
+      "Busch-Jaeger",
+      "Busch Jaeger"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "freeathome.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/mobilutz/ioBroker.freeathome/master/admin/freeathome.png",
+    "readme": "https://github.com/mobilutz/ioBroker.freeathome/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "iot-systems",
+    "compact": true,
+    "materialize": true,
+    "dependencies": [
+      {
+        "js-controller": ">=1.4.2"
+      }
+    ]
+  },
+  "native": {
+    "hostname": "192.168.178.x",
+    "username": "",
+    "password": "",
+    "httpEnabled": true,
+    "httpIp": "0.0.0.0",
+    "httpPort": 8088,
+    "wsEnabled": true,
+    "wsIp": "0.0.0.0",
+    "wsPort": 8089
+  },
+  "protectedNative": [
+    "password"
+  ],
+  "objects": [
+
+  ],
+  "instanceObjects": [
+    {
+      "_id": "",
+      "type": "meta",
+      "common": {
+        "name": "Busch-Jaeger free@home",
+        "type": "meta.user"
+      }
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "If connected to free@home SystemAP",
+        "type": "boolean",
+        "read": true,
+        "write": false
+      },
+      "native": {
+      }
+    }
+  ]
 }
