@@ -19,35 +19,35 @@ systemDictionary = {
         'de': 'Hostname oder IP des free@home System Access Point'
     },
     'username': {
-      'en': 'Username to the free@home system access point',
-      'de': 'Benutzername zum free@home System Access Point'
+        'en': 'Username to the free@home system access point',
+        'de': 'Benutzername zum free@home System Access Point'
     },
     'password': {
-      'en': 'Password to the free@home system access point',
-      'de': 'Passwort zum free@home System Access Point'
+        'en': 'Password to the free@home system access point',
+        'de': 'Passwort zum free@home System Access Point'
     },
     'httpEnabled': {
-      'en': 'Enable freeathome-api HTTP API',
-      'de': 'freeathome-api HTTP API aktivieren'
+        'en': 'Enable freeathome-api HTTP API',
+        'de': 'freeathome-api HTTP API aktivieren'
     },
     'httpIp': {
-      'en': 'freeathome-api HTTP IP',
-      'de': 'freeathome-api HTTP IP'
+        'en': 'freeathome-api HTTP IP',
+        'de': 'freeathome-api HTTP IP'
     },
     'httpPort': {
-      'en': 'freeathome-api HTTP port',
-      'de': 'freeathome-api HTTP Port'
+        'en': 'freeathome-api HTTP port',
+        'de': 'freeathome-api HTTP Port'
     },
     'wsEnabled': {
-      'en': 'Enable freeathome-api WS API',
-      'de': 'freeathome-api WS API aktivieren'
+        'en': 'Enable freeathome-api WS API',
+        'de': 'freeathome-api WS API aktivieren'
     },
     'wsIp': {
-      'en': 'freeathome-api WS IP',
-      'de': 'freeathome-api WS IP'
+        'en': 'freeathome-api WS IP',
+        'de': 'freeathome-api WS IP'
     },
     'wsPort': {
-      'en': 'freeathome-api WS port',
-      'de': 'freeathome-api WS Port'
+        'en': 'freeathome-api WS port',
+        'de': 'freeathome-api WS Port'
     }
 };
