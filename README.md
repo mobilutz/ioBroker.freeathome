@@ -20,6 +20,9 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 ## Changelog
 
 ### 0.0.1
+* (Lutz Lengemann) dependency upgrades - mostly devDependencies
+
+### 0.0.1
 * (Lutz Lengemann) initial release
 
 ## License
@@ -39,8 +42,8 @@ copies or substantial portions of the Software.
 
 ## Diclaimer
 
-This ioBroker adapter is a private contribution and not related to ABB or Busch-Jaeger. 
-It may not work with future updates of the free@home firmware and can also 
+This ioBroker adapter is a private contribution and not related to ABB or Busch-Jaeger.
+It may not work with future updates of the free@home firmware and can also
 cause unintended behavior. Use at your own risk!
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
