@@ -19,7 +19,7 @@
     "url": "https://github.com/mobilutz/ioBroker.freeathome"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^2.4.0",
+    "@iobroker/adapter-core": "^2.5.0",
     "freeathome-api": ">=1.1.1"
   },
   "devDependencies": {
