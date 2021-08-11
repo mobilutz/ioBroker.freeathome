@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.1",
-    "freeathome-api": ">=1.1.1"
+    "freeathome-api": ">=1.1.1",
+    "npm-force-resolutions": "^0.0.10"
   },
   "devDependencies": {
     "@iobroker/testing": "^2.4.4",
@@ -44,6 +45,7 @@
   },
   "main": "main.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "test:js": "mocha --opts test/mocha.custom.opts",
     "test:package": "mocha test/package --exit",
     "test:unit": "mocha test/unit --exit",
@@ -54,5 +56,10 @@
   "bugs": {
     "url": "https://github.com/mobilutz/ioBroker.freeathome/issues"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "resolutions": {
+    "glob-parent": ">=5.1.2",
+    "kind-of": ">=6.0.3",
+    "path-parse": ">=1.0.7"
+  }
 }
