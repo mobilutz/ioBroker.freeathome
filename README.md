@@ -19,6 +19,9 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 
 ## Changelog
 
+### 0.0.4
+* (Lutz Lengemann) dependency upgrades and package.json changes
+
 ### 0.0.3
 * (Lutz Lengemann) dependency upgrades and package.json changes
 
