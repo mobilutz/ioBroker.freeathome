@@ -19,6 +19,9 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 
 ## Changelog
 
+### 0.0.6
+* (Lutz Lengemann) Add connection error logging
+
 ### 0.0.5
 * (Lutz Lengemann) Fix broken install
 

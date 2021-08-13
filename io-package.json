@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "news": {
+      "0.0.6": {
+        "en": "Connection error logging",
+        "de": "Fehler log bei Verbindung"
+      },
       "0.0.5": {
         "en": "Fix broken install",
         "de": "Installation funktionstüchtig machen"
