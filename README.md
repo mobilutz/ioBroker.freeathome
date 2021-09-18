@@ -52,7 +52,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-## Diclaimer
+## Disclaimer
 
 This ioBroker adapter is a private contribution and not related to ABB or Busch-Jaeger.
 It may not work with future updates of the free@home firmware and can also
