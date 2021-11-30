@@ -58,6 +58,7 @@
     "type": "iot-systems",
     "compact": true,
     "materialize": true,
+    "connectionType": "local",
     "dependencies": [
       {
         "js-controller": ">=1.4.2"
