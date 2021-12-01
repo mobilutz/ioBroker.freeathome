@@ -48,7 +48,7 @@
     "test:package": "mocha test/package --exit",
     "test:unit": "mocha test/unit --exit",
     "test:integration": "mocha test/integration --exit",
-    "test": "npm run test:js && npm run test:package",
+    "test": "pnpm run test:js && pnpm run test:package",
     "lint": "eslint"
   },
   "bugs": {
