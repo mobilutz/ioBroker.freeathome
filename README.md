@@ -40,7 +40,7 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 ## License
 MIT License
 
-Copyright (c) 2020 Lutz Lengemann <lutz@lengemann.net>
+Copyright (c) 2021 Lutz Lengemann <lutz@lengemann.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

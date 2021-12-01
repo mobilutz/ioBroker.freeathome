@@ -59,6 +59,7 @@
     "compact": true,
     "materialize": true,
     "connectionType": "local",
+    "dataSource": "poll",
     "dependencies": [
       {
         "js-controller": ">=1.4.2"
