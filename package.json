@@ -38,12 +38,14 @@
     "eslint": "^7.32.0",
     "gulp": "^4.0.2",
     "mocha": "^7.2.0",
+    "npm-force-resolutions": "^0.0.10",
     "proxyquire": "^2.1.3",
     "sinon": "^12.0.1",
     "sinon-chai": "^3.7.0"
   },
   "main": "main.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "test:js": "mocha --opts test/mocha.custom.opts",
     "test:package": "mocha test/package --exit",
     "test:unit": "mocha test/unit --exit",
@@ -54,5 +56,10 @@
   "bugs": {
     "url": "https://github.com/mobilutz/ioBroker.freeathome/issues"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "resolutions": {
+    "ini": ">1.3.6",
+    "minimist": ">=0.2.1 <1.0.0 || >=1.2.3",
+    "tar": ">4.4.17"
+  }
 }
