@@ -3,6 +3,10 @@
     "name": "freeathome",
     "version": "0.0.7",
     "news": {
+      "0.0.7": {
+        "en": "Update devices within a time interval.",
+        "de": "Geräte update"
+      },
       "0.0.6": {
         "en": "Connection error logging",
         "de": "Fehler log bei Verbindung"
