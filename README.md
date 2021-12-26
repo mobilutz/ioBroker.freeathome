@@ -19,6 +19,9 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 
 ## Changelog
 
+### 0.0.8
+* (Lutz Lengemann) Disable cron as it is broken :(
+
 ### 0.0.7
 * (Lutz Lengemann) Add cron to update devices automatically.
 
