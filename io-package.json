@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "news": {
+      "0.0.7": {
+        "en": "Update devices within a time interval.",
+        "de": "Geräte update"
+      },
       "0.0.6": {
         "en": "Connection error logging",
         "de": "Fehler log bei Verbindung"
@@ -62,7 +66,7 @@
     "dataSource": "poll",
     "dependencies": [
       {
-        "js-controller": ">=1.4.2"
+        "js-controller": ">=2.0.0"
       }
     ]
   },
