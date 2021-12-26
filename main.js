@@ -10,6 +10,7 @@ class Freeathome extends utils.Adapter {
             name: 'freeathome',
         });
         this._registered = false;
+        this.cron = null;
         this.on('ready', this.onReady.bind(this));
         this.on('stateChange', this.onStateChange.bind(this));
         this.on('unload', this.onUnload.bind(this));
@@ -18,12 +19,14 @@ class Freeathome extends utils.Adapter {
     async onReady() {
         this._api = new FreeAtHomeApi(this);
         await this._api.start();
+        this.cron = setInterval(this.updateAllDevices, 60000);
 
         this.subscribeStates('*');
     }
 
     onUnload(callback) {
         try {
+            if (this.cron) clearInterval(this.cron);
             this._api.stop();
             callback();
         } catch (e) {
@@ -42,6 +45,17 @@ class Freeathome extends utils.Adapter {
                     this.log.debug('Adding device to ioBroker: ' + JSON.stringify(device));
                     this._api.addDeviceToioBroker(device);
                 }
+            }
+        }
+    }
+
+    async updateAllDevices() {
+        const devices = await this._api.getAllDevices();
+        if (Object.keys(devices).length > 0) {
+            for (const identifier in devices) {
+                const device = devices[identifier];
+                this.log.debug('Updating device on ioBroker: ' + JSON.stringify(device));
+                this._api.addDeviceToioBroker(device);
             }
         }
     }
