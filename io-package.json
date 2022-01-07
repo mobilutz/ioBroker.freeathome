@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "news": {
+      "0.0.9": {
+        "en": "NPM Publish new version",
+        "de": "NPM Publish Neue Version"
+      },
       "0.0.8": {
         "en": "Disable cron again",
         "de": "Cron update deaktivieren"
