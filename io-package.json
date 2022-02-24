@@ -46,12 +46,28 @@
     },
     "title": "Busch-Jaeger free@home",
     "titleLang": {
+      "de": "Busch-Jaeger free@home",
       "en": "Busch-Jaeger free@home",
-      "de": "Busch-Jaeger free@home"
+      "es": "Busch-Jaeger free@home",
+      "fr": "Busch-Jaeger free@home",
+      "it": "Busch-Jaeger gratis@casa",
+      "nl": "Busch-Jaeger free@home",
+      "pl": "Busch-Jaeger free@home",
+      "pt": "Busch-Jaeger free@home",
+      "ru": "Буш-Егер бесплатно@дома",
+      "zh-cn": "Busch-Jaeger 免费@home"
     },
     "desc": {
-      "en": "freeathome",
-      "de": "freeathome"
+      "de": "Dieser Adapter verbindet das Smart-Home-System free@home von Busch-Jaeger mit ioBroker.",
+      "en": "This adapter connects the smart-home system free@home from Busch-Jaeger to ioBroker.",
+      "es": "Este adaptador conecta el sistema de hogar inteligente free@home de Busch-Jaeger a ioBroker.",
+      "fr": "Cet adaptateur connecte le système de maison intelligente free@home de Busch-Jaeger à ioBroker.",
+      "it": "Questo adattatore collega il sistema smart-home free@home da Busch-Jaeger a ioBroker.",
+      "nl": "Deze adapter verbindt het smart-home systeem free@home van Busch-Jaeger met ioBroker.",
+      "pl": "Ten adapter łączy system smart-home free@home firmy Busch-Jaeger z ioBroker.",
+      "pt": "Este adaptador conecta o sistema de casa inteligente free@home do Busch-Jaeger ao ioBroker.",
+      "ru": "Этот адаптер соединяет систему умного дома free@home от Busch-Jaeger с ioBroker.",
+      "zh-cn": "该适配器将智能家居系统 free@home 从 Busch-Jaeger 连接到 ioBroker。"
     },
     "authors": [
       "Lutz Lengemann <lutz@lengemann.net>"
