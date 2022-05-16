@@ -23,7 +23,7 @@
     "freeathome-api": ">=1.1.1"
   },
   "devDependencies": {
-    "@iobroker/testing": "^2.5.4",
+    "@iobroker/testing": "^3.0.2",
     "@types/chai": "^4.3.0",
     "@types/chai-as-promised": "^7.1.4",
     "@types/gulp": "^4.0.9",
