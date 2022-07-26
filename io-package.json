@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "news": {
+      "0.0.11": {
+        "en": "Dependency updates",
+        "de": "Dependency Aktualisierungen"
+      },
       "0.0.10": {
         "en": "Dependency updates",
         "de": "Dependency Aktualisierungen"
