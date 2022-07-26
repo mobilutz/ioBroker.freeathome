@@ -19,6 +19,12 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 
 ## Changelog
 
+### 0.0.11
+* (Lutz Lengemann) Version bump
+
+### 0.0.10
+* (Lutz Lengemann) Newest version
+
 ### 0.0.9
 * (Lutz Lengemann) Needed to publish new NPM Version - only dependency changes!
 
