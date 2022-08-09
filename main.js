@@ -18,7 +18,11 @@ class Freeathome extends utils.Adapter {
 
     async onReady() {
         this._api = new FreeAtHomeApi(this);
-        await this._api.start();
+        try {
+            await this._api.start();
+        } catch (e) {
+            this.log.error(e);
+        }
 
         this.subscribeStates('*');
     }
@@ -40,6 +44,9 @@ class Freeathome extends utils.Adapter {
             }, 60000, this);
 
             const devices = await this._api.getAllDevices();
+
+            console.log('_________LUTZ_________');
+            console.log(devices);
 
             if (Object.keys(devices).length > 0) {
                 this._registered = true;
