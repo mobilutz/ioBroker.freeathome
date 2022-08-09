@@ -1,0 +1,12 @@
+{
+    "freeathome adapter settings": "freeathome的适配器设置",
+    "hostname": "free@home 系统接入点的主机名或 IP",
+    "httpEnabled": "启用 freeathome-api HTTP API",
+    "httpIp": "freeathome-api HTTP IP",
+    "httpPort": "freeathome-api HTTP 端口",
+    "password": "free@home 系统接入点的密码",
+    "username": "free@home 系统接入点的用户名",
+    "wsEnabled": "启用 freeathome-api WS API",
+    "wsIp": "freeathome-api WS IP",
+    "wsPort": "freeathome-api WS 端口"
+}

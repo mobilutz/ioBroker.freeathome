@@ -1,0 +1,12 @@
+{
+    "freeathome adapter settings": "Paramètres d'adaptateur pour freeathome",
+    "hostname": "Nom d'hôte ou IP du point d'accès du système free@home",
+    "httpEnabled": "Activer l'API HTTP freeathome-api",
+    "httpIp": "IP HTTP freeathome-api",
+    "httpPort": "port HTTP freeathome-api",
+    "password": "Mot de passe du point d'accès du système free@home",
+    "username": "Nom d'utilisateur du point d'accès du système free@home",
+    "wsEnabled": "Activer l'API WS freeathome-api",
+    "wsIp": "freeathome-api WS IP",
+    "wsPort": "Freeathome-api WS Port"
+}
