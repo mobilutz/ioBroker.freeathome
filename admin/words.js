@@ -20,13 +20,11 @@ systemDictionary = {
         'ru': 'Имя хоста или IP-адрес точки доступа к системе free @ home',
         'pt': 'Nome do host ou IP do ponto de acesso do sistema free @ home',
         'nl': 'Hostnaam of IP van het free@home-systeemtoegangspunt',
-        'fr': 'Nom d'hôte ou IP du point d'accès du système free@home',
+        'fr': 'Nom d\'hôte ou IP du point d\'accès du système free@home',
         'it': 'Nome host o IP del punto di accesso al sistema free@home',
         'es': 'Nombre de host o IP del punto de acceso del sistema free @ home',
         'pl': 'Nazwa hosta lub adres IP punktu dostępowego systemu free@home',
         'zh-cn': 'free@home 系统接入点的主机名或 IP'
-  }
-}
     },
     'username': {
         'en': 'Username to the free@home system access point',
@@ -34,7 +32,7 @@ systemDictionary = {
         'ru': 'Имя пользователя точки доступа к системе free @ home',
         'pt': 'Nome de usuário para o ponto de acesso do sistema free @ home',
         'nl': 'Gebruikersnaam naar het free@home-systeemtoegangspunt',
-        'fr': 'Nom d'utilisateur du point d'accès du système free@home',
+        'fr': 'Nom d\'utilisateur du point d\'accès du système free@home',
         'it': 'Nome utente al punto di accesso al sistema free@home',
         'es': 'Nombre de usuario para el punto de acceso del sistema free @ home',
         'pl': 'Nazwa użytkownika do punktu dostępu systemu free@home',
@@ -46,7 +44,7 @@ systemDictionary = {
         'ru': 'Пароль к точке доступа к системе free @ home',
         'pt': 'Senha para o ponto de acesso do sistema free @ home',
         'nl': 'Wachtwoord voor het free@home-systeemtoegangspunt',
-        'fr': 'Mot de passe du point d'accès du système free@home',
+        'fr': 'Mot de passe du point d\'accès du système free@home',
         'it': 'Password al punto di accesso al sistema free@home',
         'es': 'Contraseña para el punto de acceso del sistema free @ home',
         'pl': 'Hasło do punktu dostępu systemu free@home',
@@ -58,8 +56,8 @@ systemDictionary = {
         'ru': 'Включить HTTP API freeathome-api',
         'pt': 'Habilitar API de HTTP freeathome-api',
         'nl': 'Freeathome-api HTTP API inschakelen',
-        'fr': 'Activer l'API HTTP freeathome-api',
-        'it': 'Abilita l'API HTTP freeathome-api',
+        'fr': 'Activer l\'API HTTP freeathome-api',
+        'it': 'Abilita l\'API HTTP freeathome-api',
         'es': 'Habilitar la API HTTP freeathome-api',
         'pl': 'Włącz interfejs API HTTP freeathome-api',
         'zh-cn': '启用 freeathome-api HTTP API'
@@ -94,8 +92,8 @@ systemDictionary = {
         'ru': 'Включение freeathome-api WS API',
         'pt': 'Ativar API WS freeathome-api',
         'nl': 'Freeathome-api WS API inschakelen',
-        'fr': 'Activer l'API WS freeathome-api',
-        'it': 'Abilita l'API WS freeathome-api',
+        'fr': 'Activer l\'API WS freeathome-api',
+        'it': 'Abilita l\'API WS freeathome-api',
         'es': 'Habilitar la API de WS de freeathome-api',
         'pl': 'Włącz interfejs API WS freeathome-api',
         'zh-cn': '启用 freeathome-api WS API'
