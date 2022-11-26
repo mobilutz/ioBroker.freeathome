@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.14",
+    "version": "0.0.15",
     "news": {
+      "0.0.15": {
+        "en": "Code Cleanup",
+        "de": "Code Cleanup"
+      },
       "0.0.14": {
         "en": "Add displayname and function name",
         "de": "Anzeige Name und Funktions Name"
