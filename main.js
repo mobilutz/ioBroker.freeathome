@@ -1,7 +1,6 @@
 'use strict';
 
 const utils = require('@iobroker/adapter-core');
-const { throws } = require('assert');
 const FreeAtHomeApi = require('./lib/freeathome');
 
 class Freeathome extends utils.Adapter {
