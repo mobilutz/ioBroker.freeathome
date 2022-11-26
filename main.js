@@ -66,6 +66,7 @@ class Freeathome extends utils.Adapter {
 
     async onStateChange(id, state) {
         this.log.info('Doing something on state change. ID: ' + id + ' STATE: ' + state);
+        this.log.info('Freeathome connected? ' + this._api._connected);
         if (state) {
             this.registerAllDevices();
             if (!state.ack) {
