@@ -65,19 +65,19 @@ class Freeathome extends utils.Adapter {
     }
 
     async onStateChange(id, state) {
-        this.log.info('Doing something on state change. ID: ' + id + ' STATE: ' + state);
-        this.log.info('Freeathome connected? ' + this._api._connected);
-        if (state) {
-            this.registerAllDevices();
-            if (!state.ack) {
-                const actuator = id.split('.');
-                // TODO: I need to add logic here, to see what should really happen?
-                // complete up, complete down or something in between
-                this._api.set(actuator[2], actuator[3], actuator[4], state.val);
+        if (this._api._connected) {
+            if (state) {
+                this.registerAllDevices();
+                if (!state.ack) {
+                    const actuator = id.split('.');
+                    // TODO: I need to add logic here, to see what should really happen?
+                    // complete up, complete down or something in between
+                    this._api.set(actuator[2], actuator[3], actuator[4], state.val);
+                }
+                this.log.debug(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+            } else {
+                this.log.debug(`state ${id} deleted`);
             }
-            this.log.debug(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
-        } else {
-            this.log.debug(`state ${id} deleted`);
         }
     }
 }
