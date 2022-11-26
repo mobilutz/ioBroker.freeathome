@@ -19,6 +19,9 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 
 ## Changelog
 
+### 0.0.12
+* (Lutz Lengemann) Common info on state write
+
 ### 0.0.11
 * (Lutz Lengemann) Version bump
 
