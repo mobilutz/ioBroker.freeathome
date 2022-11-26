@@ -1,6 +1,7 @@
 'use strict';
 
 const utils = require('@iobroker/adapter-core');
+const { throws } = require('assert');
 const FreeAtHomeApi = require('./lib/freeathome');
 
 class Freeathome extends utils.Adapter {
@@ -64,6 +65,7 @@ class Freeathome extends utils.Adapter {
     }
 
     async onStateChange(id, state) {
+        this.log.info('Doing something on state change. ID: ' + id + ' STATE: ' + state);
         if (state) {
             this.registerAllDevices();
             if (!state.ack) {
