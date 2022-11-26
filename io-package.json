@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "news": {
+      "0.0.13": {
+        "en": "Remove node14, add node18, fix error",
+        "de": "node 14 entfernt, node18 hinzugefuegt, Fehler behoben."
+      },
       "0.0.12": {
         "en": "Add common info to state write.",
         "de": "Common info bei State Erstellung/Schreiben."
