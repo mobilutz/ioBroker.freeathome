@@ -19,6 +19,11 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 
 ## Changelog
 
+### 0.0.13
+* (Lutz Lengemann) Remove node 14 tests
+* (Lutz Lengemann) Add node 18 tests
+* (Lutz Lengemann) Fix type `tate` to `state`
+
 ### 0.0.12
 * (Lutz Lengemann) Common info on state write
 
