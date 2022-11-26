@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "news": {
+      "0.0.14": {
+        "en": "Add displayname and function name",
+        "de": "Anzeige Name und Funktions Name"
+      },
       "0.0.13": {
         "en": "Remove node14, add node18, fix error",
         "de": "node 14 entfernt, node18 hinzugefuegt, Fehler behoben."
