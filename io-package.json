@@ -1,71 +1,228 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "news": {
+      "0.0.17": {
+        "en": "Prepare for iobroker-repositories",
+        "de": "Vorbereitung auf iobroker-repositories",
+        "ru": "Подготовьтесь к iobroker-репозиториям",
+        "pt": "Preparar para repositórios iobroker",
+        "nl": "Bereid je voor op iobroker-repositor",
+        "fr": "Préparer les dépôts d'iobroker",
+        "it": "Preparare per i depositi di iobroker",
+        "es": "Prepararse para los depósitos de iobroker",
+        "pl": "Przygotowanie do iobroker-repository",
+        "uk": "Підготовка до iobroker-repositories",
+        "zh-cn": "气雾器的配件"
+      },
       "0.0.16": {
         "en": "Update freeathome-api",
-        "de": "Update freeathome-api"
+        "de": "Update freeathome-api",
+        "ru": "Обновление freeathome-api",
+        "pt": "Atualizar freeathome-api",
+        "nl": "Update freeathome api",
+        "fr": "Update freeathome-api",
+        "it": "Aggiornamento freeathome-api",
+        "es": "Actualizar freeathome-api",
+        "pl": "Update Freeathome-api",
+        "uk": "Оновлення Freeathome-api",
+        "zh-cn": "A. 最新免费简报"
       },
       "0.0.15": {
         "en": "Code Cleanup",
-        "de": "Code Cleanup"
+        "de": "Code Cleanup",
+        "ru": "Код Cleanup",
+        "pt": "Limpeza de código",
+        "nl": "Code Cleanup",
+        "fr": "Nettoyage du code",
+        "it": "Pulizia del codice",
+        "es": "Código de limpieza",
+        "pl": "Code Cleanup",
+        "uk": "Очищення коду",
+        "zh-cn": "守则"
       },
       "0.0.14": {
         "en": "Add displayname and function name",
-        "de": "Anzeige Name und Funktions Name"
+        "de": "Anzeigename und Funktionsname hinzufügen",
+        "ru": "Добавить имя дисплея и название функции",
+        "pt": "Adicionar nome de exibição e nome da função",
+        "nl": "Voeg je naam en functienaam toe",
+        "fr": "Ajouter le nom d'affichage et le nom de fonction",
+        "it": "Aggiungi nome del display e nome della funzione",
+        "es": "Agregar nombre de pantalla y nombre de función",
+        "pl": "Addd – nazwa pliku",
+        "uk": "Додати ім'я та ім'я функції",
+        "zh-cn": "增加姓名和功能名称"
       },
       "0.0.13": {
         "en": "Remove node14, add node18, fix error",
-        "de": "node 14 entfernt, node18 hinzugefuegt, Fehler behoben."
+        "de": "Entfernen node14, add node18, fix error",
+        "ru": "Удалить node14, добавить node18, исправить ошибку",
+        "pt": "Remover node14, adicionar node18, corrigir erro",
+        "nl": "Verwijder Node14, voeg node18 toe, maak fouten",
+        "fr": "Supprimer node14, ajouter node18, corriger l'erreur",
+        "it": "Rimuovere node14, aggiungere node18, correggere errore",
+        "es": "Remove node14, añadir node18, corregir error",
+        "pl": "Przesunięcie węzła 14 dodaje węzeł 18, poprawiając błąd",
+        "uk": "Видалити вузол14, додати вузол18, виправити помилку",
+        "zh-cn": "删除第14号,增加第18号,有缺陷"
       },
       "0.0.12": {
         "en": "Add common info to state write.",
-        "de": "Common info bei State Erstellung/Schreiben."
+        "de": "Fügen Sie gemeinsame Informationen zu schreiben.",
+        "ru": "Добавьте общую информацию в государственную письму.",
+        "pt": "Adicionar informações comuns para escrever estado.",
+        "nl": "Voeg algemene informatie toe aan staatsschrijving.",
+        "fr": "Ajouter des infos courantes pour écrire.",
+        "it": "Aggiungi informazioni comuni per scrivere lo stato.",
+        "es": "Añadir información común para escribir estado.",
+        "pl": "Wspólne informacje na temat stanu.",
+        "uk": "Додайте інформацію про державне написання.",
+        "zh-cn": "添加共同的写法。."
       },
       "0.0.11": {
         "en": "Dependency updates",
-        "de": "Dependency Aktualisierungen"
+        "de": "Änderungen der Abhängigkeit",
+        "ru": "Обновление зависимости",
+        "pt": "Atualizações de dependência",
+        "nl": "Afhankelijke updates",
+        "fr": "Mises à jour des dépenses",
+        "it": "Aggiornamenti di dipendenza",
+        "es": "Actualizaciones de dependencia",
+        "pl": "Aktualizacja",
+        "uk": "Оновлення залежності",
+        "zh-cn": "B. 附属更新"
       },
       "0.0.10": {
         "en": "Dependency updates",
-        "de": "Dependency Aktualisierungen"
+        "de": "Änderungen der Abhängigkeit",
+        "ru": "Обновление зависимости",
+        "pt": "Atualizações de dependência",
+        "nl": "Afhankelijke updates",
+        "fr": "Mises à jour des dépenses",
+        "it": "Aggiornamenti di dipendenza",
+        "es": "Actualizaciones de dependencia",
+        "pl": "Aktualizacja",
+        "uk": "Оновлення залежності",
+        "zh-cn": "B. 附属更新"
       },
       "0.0.9": {
         "en": "NPM Publish new version",
-        "de": "NPM Publish Neue Version"
+        "de": "NPM Neue Version veröffentlichen",
+        "ru": "НПМ Опубликовать новую версию",
+        "pt": "NPM Publicar nova versão",
+        "nl": "NPM Vertaling:",
+        "fr": "NPM Publier une nouvelle version",
+        "it": "NPM Pubblica una nuova versione",
+        "es": "NPM Publicar nueva versión",
+        "pl": "NPM Nowe wydanie",
+        "uk": "ПМ Публікація нової версії",
+        "zh-cn": "NPM 出版新版本"
       },
       "0.0.8": {
         "en": "Disable cron again",
-        "de": "Cron update deaktivieren"
+        "de": "Cron wieder deaktivieren",
+        "ru": "Отключить cron снова",
+        "pt": "Desabilitar cron novamente",
+        "nl": "Weer gewassen",
+        "fr": "Cron désactive à nouveau",
+        "it": "Disattivare cron di nuovo",
+        "es": "Cron deshabilitado de nuevo",
+        "pl": "Od razu znów ulec",
+        "uk": "Вимкнено cron знову",
+        "zh-cn": "令人沮丧的时刻"
       },
       "0.0.7": {
         "en": "Update devices within a time interval.",
-        "de": "Geräte update"
+        "de": "Aktualisieren von Geräten innerhalb eines Zeitintervalls.",
+        "ru": "Обновление устройств в интервале времени.",
+        "pt": "Atualize dispositivos dentro de um intervalo de tempo.",
+        "nl": "Update apparaten binnen een tijdstip.",
+        "fr": "Mettre à jour les appareils dans un intervalle de temps.",
+        "it": "Aggiornare i dispositivi entro un intervallo di tempo.",
+        "es": "Actualizar dispositivos dentro de un intervalo de tiempo.",
+        "pl": "Użytkowanie urządzeń w czasie.",
+        "uk": "Оновлення пристроїв в інтервалі часу.",
+        "zh-cn": "在时间间隔内更新装置。."
       },
       "0.0.6": {
         "en": "Connection error logging",
-        "de": "Fehler log bei Verbindung"
+        "de": "Verbindungsfehler Protokollierung",
+        "ru": "Переработка ошибок соединения",
+        "pt": "Registro de erro de conexão",
+        "nl": "Verbindingsfout",
+        "fr": "Signalisation des erreurs de connexion",
+        "it": "Registrazione errori di connessione",
+        "es": "Registro de errores de conexión",
+        "pl": "Błędy łączeniowe",
+        "uk": "Логування помилок підключення",
+        "zh-cn": "A. 排减错误"
       },
       "0.0.5": {
         "en": "Fix broken install",
-        "de": "Installation funktionstüchtig machen"
+        "de": "Fix defekte Installation",
+        "ru": "Исправление сломанной установки",
+        "pt": "Corrigir instalação quebrada",
+        "nl": "Vertaling:",
+        "fr": "Correction cassée",
+        "it": "Fissare l'installazione rotta",
+        "es": "Instalación rota",
+        "pl": "Fix rozbita",
+        "uk": "Виправлення зламаної установки",
+        "zh-cn": "固定装置"
       },
       "0.0.4": {
         "en": "Dependency updates",
-        "de": "Dependency Aktualisierungen"
+        "de": "Änderungen der Abhängigkeit",
+        "ru": "Обновление зависимости",
+        "pt": "Atualizações de dependência",
+        "nl": "Afhankelijke updates",
+        "fr": "Mises à jour des dépenses",
+        "it": "Aggiornamenti di dipendenza",
+        "es": "Actualizaciones de dependencia",
+        "pl": "Aktualizacja",
+        "uk": "Оновлення залежності",
+        "zh-cn": "B. 附属更新"
       },
       "0.0.3": {
         "en": "Dependency updates",
-        "de": "Dependency Aktualisierungen"
+        "de": "Änderungen der Abhängigkeit",
+        "ru": "Обновление зависимости",
+        "pt": "Atualizações de dependência",
+        "nl": "Afhankelijke updates",
+        "fr": "Mises à jour des dépenses",
+        "it": "Aggiornamenti di dipendenza",
+        "es": "Actualizaciones de dependencia",
+        "pl": "Aktualizacja",
+        "uk": "Оновлення залежності",
+        "zh-cn": "B. 附属更新"
       },
       "0.0.2": {
         "en": "Dependency updates",
-        "de": "Dependency Aktualisierungen"
+        "de": "Änderungen der Abhängigkeit",
+        "ru": "Обновление зависимости",
+        "pt": "Atualizações de dependência",
+        "nl": "Afhankelijke updates",
+        "fr": "Mises à jour des dépenses",
+        "it": "Aggiornamenti di dipendenza",
+        "es": "Actualizaciones de dependencia",
+        "pl": "Aktualizacja",
+        "uk": "Оновлення залежності",
+        "zh-cn": "B. 附属更新"
       },
       "0.0.1": {
         "en": "initial release",
-        "de": "Erstveröffentlichung"
+        "de": "erstausstrahlung",
+        "ru": "начальный выпуск",
+        "pt": "lançamento inicial",
+        "nl": "niet",
+        "fr": "initial release",
+        "it": "rilascio iniziale",
+        "es": "liberación inicial",
+        "pl": "pierwsze wydanie",
+        "uk": "початковий реліз",
+        "zh-cn": "初步释放"
       }
     },
     "title": "Busch-Jaeger free@home",
