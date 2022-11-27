@@ -35,9 +35,9 @@ class Freeathome extends utils.Adapter {
 
     async registerAllDevices() {
         if (!this._registered) {
-            this.cron = setInterval(function (self) {
-                self.updateAllDevices();
-            }, 60000, this);
+            this.cron = setInterval(() => {
+                this.updateAllDevices();
+            }, 60000);
 
             const devices = await this._api.getAllDevices();
 
