@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.1",
-    "freeathome-api": ">=1.1.2"
+    "freeathome-api": "^1.1.2"
   },
   "devDependencies": {
     "@iobroker/adapter-dev": "^1.0.0",
