@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "news": {
+      "0.0.18": {
+        "en": "Code Cleanup",
+        "de": "Code Cleanup",
+        "ru": "Код Cleanup",
+        "pt": "Limpeza de código",
+        "nl": "Code Cleanup",
+        "fr": "Nettoyage du code",
+        "it": "Pulizia del codice",
+        "es": "Código de limpieza",
+        "pl": "Code Cleanup",
+        "uk": "Очищення коду",
+        "zh-cn": "守则"
+      },
       "0.0.17": {
         "en": "Prepare for iobroker-repositories",
         "de": "Vorbereitung auf iobroker-repositories",
