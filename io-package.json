@@ -231,12 +231,12 @@
       "en": "Busch-Jaeger free@home",
       "es": "Busch-Jaeger free@home",
       "fr": "Busch-Jaeger free@home",
-      "it": "Busch-Jaeger gratis@casa",
+      "it": "Busch-Jaeger free@home",
       "nl": "Busch-Jaeger free@home",
       "pl": "Busch-Jaeger free@home",
       "pt": "Busch-Jaeger free@home",
-      "ru": "Буш-Егер бесплатно@дома",
-      "zh-cn": "Busch-Jaeger 免费@home"
+      "ru": "Busch-Jaeger free@home",
+      "zh-cn": "Busch-Jaeger free@home"
     },
     "desc": {
       "de": "Dieser Adapter verbindet das Smart-Home-System free@home von Busch-Jaeger mit ioBroker.",
@@ -293,8 +293,19 @@
   "protectedNative": [
     "password"
   ],
+  "encryptedNative": [
+    "password"
+  ],
   "objects": [],
   "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
     {
       "_id": "info.connection",
       "type": "state",
