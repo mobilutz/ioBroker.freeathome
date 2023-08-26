@@ -19,6 +19,10 @@ To communicate with the free@home system access point, it uses the [freeathome-a
 
 ## Changelog
 
+### 0.0.19
+
+* (Lutz Lengemann) Debugging current adapter error
+
 ### 0.0.18
 
 * (Lutz Lengemann) Code Cleanup
