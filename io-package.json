@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "freeathome",
-    "version": "0.0.19",
+    "version": "0.0.20",
     "news": {
+      "0.0.20": {
+        "en": "Debugging",
+        "de": "Debugging",
+        "ru": "Debugging",
+        "pt": "Debugging",
+        "nl": "Debugging",
+        "fr": "Debugging",
+        "it": "Debugging",
+        "es": "Debugging",
+        "pl": "Debugging",
+        "uk": "Debugging",
+        "zh-cn": "Debugging"
+      },
       "0.0.19": {
         "en": "Debugging",
         "de": "Debugging",
