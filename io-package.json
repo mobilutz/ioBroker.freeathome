@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "freeathome",
-        "version": "0.0.20",
+        "version": "0.0.21",
         "news": {
+            "0.0.21": {
+                "en": "Version bump",
+                "de": "Versionsfehler",
+                "ru": "Удар по версии",
+                "pt": "Aumento da versão",
+                "nl": "Versie bump",
+                "fr": "Changement de version",
+                "it": "Aumento della versione",
+                "es": "Mejora de versión",
+                "pl": "Podbicie wersji",
+                "uk": "Збій версії",
+                "zh-cn": "版本碰撞"
+            },
             "0.0.20": {
                 "en": "Debugging",
                 "de": "Debugging",
