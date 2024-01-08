@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "freeathome",
-        "version": "0.0.20",
+        "version": "0.0.21",
         "news": {
+            "0.0.21": {
+                "en": "Version bump",
+                "de": "Versionsfehler",
+                "ru": "Удар по версии",
+                "pt": "Aumento da versão",
+                "nl": "Versie bump",
+                "fr": "Changement de version",
+                "it": "Aumento della versione",
+                "es": "Mejora de versión",
+                "pl": "Podbicie wersji",
+                "uk": "Збій версії",
+                "zh-cn": "版本碰撞"
+            },
             "0.0.20": {
                 "en": "Debugging",
                 "de": "Debugging",
@@ -249,19 +262,6 @@
                 "pl": "Aktualizacja",
                 "uk": "Оновлення залежності",
                 "zh-cn": "B. 附属更新"
-            },
-            "0.0.1": {
-                "en": "initial release",
-                "de": "erstausstrahlung",
-                "ru": "начальный выпуск",
-                "pt": "lançamento inicial",
-                "nl": "niet",
-                "fr": "initial release",
-                "it": "rilascio iniziale",
-                "es": "liberación inicial",
-                "pl": "pierwsze wydanie",
-                "uk": "початковий реліз",
-                "zh-cn": "初步释放"
             }
         },
         "titleLang": {
